@@ -1,0 +1,29 @@
+#outer-box-model {
+  border: 1px dotted gray;
+  width: 410px;
+  height: 410px;
+  left: 200px;
+  top: 100px;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-model {
+  background-color: gold;
+  width: 230px;
+  height: 230px;
+  border-width: 30px;
+  border-style: inset;
+  border-color: darkgray;
+  margin: 30px;
+  padding: 30px;
+}
+
+#inner-box-model {
+  border: 1px dotted gray;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: block;
+}
